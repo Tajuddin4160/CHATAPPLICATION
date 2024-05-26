@@ -16,6 +16,6 @@ app.use(cors())
 app.use('/api/auth', AuthRouters)
 
 app.listen(PORT, () => {
-    //check port running
+    //check port running message
     console.log(`Server running on ${PORT}`);
 })
